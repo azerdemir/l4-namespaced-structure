@@ -11,7 +11,5 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+// Default route
+Route::get('/', 'Structure\Controllers\HomeController@showWelcome');
