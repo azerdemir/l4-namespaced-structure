@@ -6,7 +6,10 @@
 		"laravel/framework": "4.0.*"
 	},
 	"autoload": {
-		"psr-0": {
+		"classmap": [
+            "tests"
+        ],
+        "psr-0": {
             "Structure": "src/"
         }
 	},

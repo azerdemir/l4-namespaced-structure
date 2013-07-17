@@ -14,8 +14,7 @@
 ClassLoader::addDirectories(
     array(
         app_path()  . '/database/migrations',
-    	app_path()  . '/database/seeds',
-        base_path() . '/tests'
+    	app_path()  . '/database/seeds'
     )
 );
 
