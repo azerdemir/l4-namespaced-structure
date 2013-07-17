@@ -1,6 +1,6 @@
 {
 	"name": "azerdemir/l4-namespaced-structure",
-	"description": "The Laravel Framework.",
+	"description": "A modified version of official laravel/laravel project structure.",
 	"keywords": ["framework", "laravel"],
 	"require": {
 		"laravel/framework": "4.0.*"
