@@ -1,5 +1,5 @@
 {
-	"name": "azerdemir/l4-structure",
+	"name": "azerdemir/l4-namespaced-structure",
 	"description": "The Laravel Framework.",
 	"keywords": ["framework", "laravel"],
 	"require": {
