@@ -1,34 +1,34 @@
 {
-	"name": "azerdemir/l4-namespaced-structure",
-	"description": "A modified version of official laravel/laravel project structure.",
-	"keywords": ["framework", "laravel"],
-	"require": {
-		"laravel/framework": "4.0.*"
-	},
-	"autoload": {
-		"classmap": [
+    "name": "azerdemir/l4-namespaced-structure",
+    "description": "A modified version of official laravel/laravel project structure.",
+    "keywords": ["framework", "laravel"],
+    "require": {
+        "laravel/framework": "4.0.*"
+    },
+    "autoload": {
+        "classmap": [
             "tests"
         ],
         "psr-0": {
             "Structure": "src/"
         }
-	},
-	"scripts": {
-		"post-install-cmd": [
-			"php artisan optimize"
-		],
-		"pre-update-cmd": [
-			"php artisan clear-compiled"
-		],
-		"post-update-cmd": [
-			"php artisan optimize"
-		],
-		"post-create-project-cmd": [
-			"php artisan key:generate"
-		]
-	},
-	"config": {
-		"preferred-install": "dist"
-	},
-	"minimum-stability": "dev"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan optimize"
+        ],
+        "pre-update-cmd": [
+            "php artisan clear-compiled"
+        ],
+        "post-update-cmd": [
+            "php artisan optimize"
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev"
 }
